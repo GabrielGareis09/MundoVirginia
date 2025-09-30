@@ -1,0 +1,153 @@
+/*Css body*/
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.navLogo {
+    background-color: #982570;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.navLogo img{
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px black;
+    cursor: pointer;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #7B1256;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.navLinks a{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.navLinks a:hover{
+    transform: scale(1.1);
+}
+
+
+.conteinerBV {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 3%;
+}
+.cardEsquerda {
+    background-color: #5B003B;
+    padding: 40px 20px 60px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+    width: 850px;
+}
+.cardEsquerda h1{
+    color: white;
+    margin: 0%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.cardEsquerda p{
+    color: white;
+    margin: 0%;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.botoesDireita {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.botoesDireita button{
+    background: linear-gradient(90deg,rgba(152, 37, 112, 1) 0%, rgba(123, 18, 86, 1) 48%);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.areaCardsBV {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.cardBV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5B003B;
+    box-shadow: 0 0 30px black;
+    padding: 0px 20px 0px 20px;
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    gap: 10 px;
+}
+.cardBV h1{
+    color: white;
+    font-size: 17px;
+    margin: 0%;
+}
+.cardBV p{
+    color: white;
+    font-size: 15px;
+}
+
+
+.cardDireita {
+    background-color: #5B003B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+.cardDireita img {
+    width: 250px;
+    border-radius: 30px;
+    border: 5px solid #7B1256;
+}
+.cardDireita h1{
+    color: white;
+    margin: 0%;
+    margin-top: 15px;
+    font-size: 23px;
+}
+.cardDireita p{
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.areaCardCaract {
+    margin-bottom: 30px;
+}
+.cardCaract {
+    background-color: #7B1256;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+.botoesRS button {
+    background: linear-gradient(90deg,rgba(152, 37, 112, 1) 0%, rgba(123, 18, 86, 1) 48%);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
