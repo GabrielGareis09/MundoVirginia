@@ -16,14 +16,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #F8FAFC;
+    background: #982570;
 }
 .caixaCadastro {
-    background-color: #ff4d4d;
+    background-color: #982570;
     border-radius: 10px;
     width: 50%;
     padding: 20px 20px 20px 20px;
-    box-shadow: 0 0 20px #0F172A
+    box-shadow: 0 0 100px black;
 }
 .caixaCadastro h1 {
     font-size: 45px;
@@ -51,14 +51,14 @@ body{
     padding: 15px 0px 15px 0px;
     border: none;
     border-radius: 5px;
-    background-color: #ff8080;
+    background-color: #7B1256;
     color: white;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
 .caixaCadastro button:hover {
-    background-color: #ff6666;
+    background-color: #5B003B;
 }
 .colunaDireita {
     width: 50%;
