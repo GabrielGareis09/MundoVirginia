@@ -5,6 +5,8 @@ body{
     background-color: white;
 }
 
+
+/*Css NavBar*/
 .navLogo {
     background-color: #982570;
     display: flex;
@@ -39,12 +41,14 @@ body{
 }
 
 
+/*Css Conteiner pai Bem-Vindo*/
 .conteinerBV {
     display: flex;
     gap: 50px;
     justify-content: center;
     margin-top: 3%;
 }
+/*Css Card esquerda*/
 .cardEsquerda {
     background-color: #5B003B;
     padding: 40px 20px 60px 20px;
@@ -65,17 +69,24 @@ body{
     padding-right: 10px;
     padding-left: 20px;
 }
-.botoesDireita {
+.botoesEsquerda {
+    display: flex;
+    gap: 10px;
     margin-bottom: 30px;
     padding-left: 20px;
 }
-.botoesDireita button{
+.botoesEsquerda button{
     background: linear-gradient(90deg,rgba(152, 37, 112, 1) 0%, rgba(123, 18, 86, 1) 48%);
     color: white;
     padding: 10px 30px 10px 30px;
     border: none;
     border-radius: 10px;
     font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.botoesEsquerda button:hover {
+    transform: scale(1.08);
 }
 .areaCardsBV {
     display: flex;
@@ -87,25 +98,29 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #5B003B;
+    background-color: white;
     box-shadow: 0 0 30px black;
     padding: 0px 20px 0px 20px;
     width: 220px;
     height: 200px;
     border-radius: 10px;
     gap: 10 px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cardBV:hover {
+    transform: translateY(-4px);
 }
 .cardBV h1{
-    color: white;
+    color: black;
     font-size: 17px;
     margin: 0%;
 }
 .cardBV p{
-    color: white;
+    color: black;
     font-size: 15px;
 }
-
-
+/*Css Card direita*/
 .cardDireita {
     background-color: #5B003B;
     display: flex;
@@ -143,6 +158,10 @@ body{
     padding: 5px 10px 5px 10px;
     border-radius: 20px;
 }
+.botoesRS {
+    display: flex;
+    gap: 10px;
+}
 .botoesRS button {
     background: linear-gradient(90deg,rgba(152, 37, 112, 1) 0%, rgba(123, 18, 86, 1) 48%);
     color: white;
@@ -150,4 +169,70 @@ body{
     border: none;
     border-radius: 10px;
     font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.botoesRS button:hover {
+    transform: scale(1.08);
+}
+
+
+/*Css Conteiner pai SB*/
+.areaCardSB {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+/*Css Card SB*/
+.cardSB {
+    background-color: #5B003B;
+    width: 1230px;
+    border-radius: 20px;
+    padding: 30px 30px 0px 30px;
+    transition: all 0.3s ease;
+}
+.cardSB:hover {
+    transform: scale(1.02);
+}
+.cardSB h1 {
+    color: white;
+    margin: 0%;
+    margin-bottom: 15px;
+}
+.cardSB p {
+    color: white;
+    margin: 0%;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.areaMiniCardsSB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniCardSB {
+    padding: 20px 20px 20px 20px;
+}
+.miniCardSB h1{
+    font-size: 15px;
+}
+.miniCardSB p{
+    font-size: 12px;
+}
+
+
+/*Css Rodapé*/
+footer {
+    width: 100%;
+    height: 50px;
+    background: #7B1256;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
