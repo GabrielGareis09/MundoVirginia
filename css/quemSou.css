@@ -1,0 +1,105 @@
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.navLogo {
+    background-color: #982570;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.navLogo img{
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px black;
+    cursor: pointer;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #7B1256;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.navLinks a{
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.navLinks a:hover{
+    transform: scale(1.1);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.quemSou {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #333;
+}
+
+.quemSou h1 {
+    color: #982570;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.quemSou h2 {
+    color: #7B1256;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.quemSou p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.quemSou ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quemSou ul li::before {
+    content: "• ";
+    color: #982570;
+    font-weight: bold;
+}
+
+.quemSouContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.texto {
+    flex: 1;
+}
+
+
+.timeline {
+    background-color: #f9f9f9;
+    border-left: 4px solid #982570;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.timeline div {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
