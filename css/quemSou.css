@@ -32,6 +32,7 @@ body{
     color: white;
     cursor: pointer;
     transition: transform 0.3s ease;
+    text-decoration: none;
 }
 .navLinks a:hover{
     transform: scale(1.1);

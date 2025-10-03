@@ -1,0 +1,51 @@
+body{
+      margin: 0%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: white;
+  }
+  
+  
+  /*Css NavBar*/
+  .navLogo {
+      background-color: #982570;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+  }
+  .navLogo img{
+      width: 80px;
+      border-radius: 50%;
+      box-shadow: 0 0 50px black;
+      cursor: pointer;
+  }
+  .navLinks {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background-color: #7B1256;
+      padding-top: 7px;
+      padding-bottom: 7px;
+  }
+  .navLinks a{
+      font-size: 18px;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+  }
+  .navLinks a:hover{
+      transform: scale(1.1);
+  }
+
+.conheca {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.conheca h1{
+      color: black;
+      font-size: 20px;
+}
