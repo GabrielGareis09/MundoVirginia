@@ -1,9 +1,10 @@
-body{
-    margin: 0%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdf4f9;
+    color: #4a0040;
 }
-  
+
 
 
 .navLogo {
@@ -40,61 +41,54 @@ body{
     transform: scale(1.1);
 }
 
-
-.titulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #e9e9e9;
-    padding: 30px 0px 40px 0px;
-}
-.titulo h1{
-    color: black;
-    font-weight: 500;
-    margin: 0%;
-    margin-bottom: 10px;
-}
-.titulo h2{
-    color: gray;
-    font-weight: 400;
-    margin: 0%;
-}
-
-
-.areaCards {
-    padding: 40px 250px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+.carreira {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
     margin-bottom: 50px;
 }
-.card {
-    background-color: #360F29;
+
+.carreira h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #982570;
+    margin-top: 0%;
+}
+
+.linhadotempo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 20px;
+}
+
+.imagem {
+    display: flex;
     align-items: center;
-    width: 230px;
-    height: 300px;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    border-radius: 10px;
+    background-color: rgb(218, 218, 218);
+    border-left: 5px solid #982570;
+    padding: 15px 20px;
+    border-radius: 8px;
+    gap: 20px;
 }
-.card img{
-    width: 150px;
-    border-radius: 50%;
-    margin: 0%;
-    box-shadow: 0 0 20px black;
+
+.imagem img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-.card h1 {
-    color: white;
-    margin: 10px 0 10px 0px;
+
+.imagem .texto {
+    flex: 1;
 }
-.card p {
-    color: rgb(190, 190, 190);
-    margin: 0%;
+
+.imagem .ano {
+    font-weight: bold;
+    font-size: 20px;
+    color: #7B1256;
+    margin-bottom: 5px;
 }
 
 

@@ -1,11 +1,10 @@
-/*Css body*/
 body{
     margin: 0%;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*Css Login*/
+
 .conteinerLogin {
     background-size: cover;
     background-image: url(/imagens/login.png);

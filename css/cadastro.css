@@ -1,11 +1,11 @@
-/*Css body*/
 body{
     margin: 0%;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*Css cadastro*/
+
+
 .conteinerCadastro {
     display: flex;
     width: 100%;

@@ -1,4 +1,3 @@
-/*Css body*/
 body{
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +5,7 @@ body{
 }
 
 
-/*Css NavBar*/
+
 .navLogo {
     background-color: #982570;
     display: flex;
@@ -42,14 +41,14 @@ body{
 }
 
 
-/*Css Conteiner pai Bem-Vindo*/
+
 .conteinerBV {
     display: flex;
     gap: 50px;
     justify-content: center;
     margin-top: 3%;
 }
-/*Css Card esquerda*/
+
 .cardEsquerda {
     background-color: #5B003B;
     padding: 40px 20px 60px 20px;
@@ -121,7 +120,7 @@ body{
     color: black;
     font-size: 15px;
 }
-/*Css Card direita*/
+
 .cardDireita {
     background-color: #5B003B;
     display: flex;
@@ -178,14 +177,14 @@ body{
 }
 
 
-/*Css Conteiner pai SB*/
+
 .areaCardSB {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 80px;
 }
-/*Css Card SB*/
+
 .cardSB {
     background-color: #5B003B;
     width: 1230px;
@@ -223,7 +222,7 @@ body{
 }
 
 
-/*Css Rodapé*/
+
 footer {
     width: 100%;
     height: 50px;
