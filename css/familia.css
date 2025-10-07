@@ -38,26 +38,26 @@ body{
     transform: scale(1.1);
 }
 
-.familiaIntro {
+.familiaintro {
     text-align: center;
     background-color: #982570;
     padding: 40px 20px;
 }
 
-.familiaIntro h2 {
+.familiaintro h2 {
     font-size: 28px;
     color: #f9f0f5;
     margin-bottom: 10px;
 }
 
-.familiaIntro p {
+.familiaintro p {
     font-size: 18px;
     color: #f9f0f5;
     max-width: 700px;
     margin: 0 auto;
 }
 
-.familiaBlocos {
+.familiablocos {
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -114,14 +114,14 @@ body{
     position: relative;
 }
 
-.carrosselTitulo {
+.carrosseltitulo {
     text-align: center;
     padding: 30px 0;
     background-color: #982570;
     
 }
 
-.carrosselTitulo h2 {
+.carrosseltitulo h2 {
     font-size: 24px;
     color: #fff0f6;
 }
