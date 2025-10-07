@@ -1,55 +1,64 @@
 
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+  
+
+
 .navLogo {
     background-color: #982570;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7px 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
-
-.navLogo img {
+.navLogo img{
     width: 80px;
     border-radius: 50%;
     box-shadow: 0 0 50px black;
     cursor: pointer;
 }
-
 .navLinks {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     background-color: #7B1256;
-    padding: 7px 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
-
-.navLinks a {
+.navLinks a{
     font-size: 18px;
     color: white;
     cursor: pointer;
     transition: transform 0.3s ease;
     text-decoration: none;
 }
-
-.navLinks a:hover {
+.navLinks a:hover{
     transform: scale(1.1);
 }
 
-/* === Cabeçalho === */
-.familiatexto {
-    background-color: #982570;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+    padding: 30px 0px 40px 0px;
 }
-
-.familiatexto h1 {
-    font-size: 36px;
+.titulo h1{
+    color: black;
+    font-weight: 500;
+    margin: 0%;
     margin-bottom: 10px;
 }
-
-.familiatexto p {
-    font-size: 18px;
+.titulo h2{
+    color: gray;
+    font-weight: 400;
+    margin: 0%;
 }
 
 /* === Conteúdo === */
